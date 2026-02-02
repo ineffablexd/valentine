@@ -36,7 +36,37 @@
     "happy": ["❤️", "😘", "💋", "💑", "💏", "😻", "💍", "💒"]
   },
   "images": {
-    "banner_no": "public/images/no.gif",
-    "banner_yes": "public/images/yes.gif"
+    "banner_no": [
+      "public/images/no2.gif",
+      "public/images/no3.gif",
+      "public/images/no4.gif",
+      "public/images/no5.gif",
+      "public/images/no6.gif",
+      "public/images/no7.gif",
+      "public/images/no8.gif",
+      "public/images/no9.gif"
+    ],
+    "banner_yes": [
+      "public/images/yes.gif",
+      "public/images/yes2.gif",
+      "public/images/yes3.gif",
+      "public/images/yes4.gif",
+      "public/images/yes5.gif",
+      "public/images/yes6.gif",
+      "public/images/yes7.gif",
+      "public/images/yes8.gif",
+      "public/images/yes9.gif"
+    ],
+    "banner_mid": [
+      "public/images/mid.gif",
+      "public/images/mid2.gif",
+      "public/images/mid3.gif",
+      "public/images/mid4.gif",
+      "public/images/mid5.gif",
+      "public/images/mid6.gif",
+      "public/images/mid7.gif",
+      "public/images/mid8.gif",
+      "public/images/mid9.gif"
+    ]
   }
 }

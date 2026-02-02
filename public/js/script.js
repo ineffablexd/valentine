@@ -40,8 +40,9 @@ fetch('./public/text/strings.json')
         loveEmojis = data.emojis.love;
         sadEmojis = data.emojis.sad;
         happyEmojis = data.emojis.happy;
-        bannerImages.no = data.images.banner_no;
-        bannerImages.yes = data.images.banner_yes;
+        bannerImages.no = data.images.banner_no[Math.floor(Math.random() * data.images.banner_no.length)];
+        bannerImages.yes = data.images.banner_yes[Math.floor(Math.random() * data.images.banner_yes.length)];
+        document.getElementById('banner').src = data.images.banner_mid[Math.floor(Math.random() * data.images.banner_mid.length)];
 
         startFloatingEmojis(loveEmojis);
     })
